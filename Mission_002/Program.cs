@@ -5,7 +5,7 @@ void Random (int[] mas)
 {
     for (int i = 0; i < mas.Length; i++)
     {
-      mas[i] = new Random().Next(1,10);  
+      mas[i] = new Random().Next(-10,10);  
     }
 }
 void Print (int[] mas)
